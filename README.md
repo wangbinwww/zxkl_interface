@@ -7,6 +7,8 @@ by [Well-BoB](https://www.iconics.com)
 
 ## **最新版本: v1 2020.02.03**
 
+---
+
 ## 文档地址
 
 - [项目文档](https://github.com/wangbinwww/zxkl_interface/tree/master/接口协议)
@@ -38,11 +40,11 @@ by [Well-BoB](https://www.iconics.com)
 
 ## 联系方式
 
-- Github: <https://github.com/wangbinwww/Sequelize>
+- Github: <https://github.com/wangbinwww/zxkl_interface>
 - Email: [13331036973@163.com](mailto:github#mcxiaoke.com)
 
 ## 其它
 
-- Github: <https://github.com/wangbinwww/Sequelize>
+- Github: <https://github.com/wangbinwww/zxkl_interface>
 
 ---
