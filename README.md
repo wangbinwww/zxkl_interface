@@ -1,18 +1,15 @@
 # 中兴克拉接口程序
 
-参考原文:
-**https://segmentfault.com/a/1190000019760817**
-
 本项目根据中兴克拉提供的接口 API 文档编写对应的 API 接口,
 获取到数据后转换成 JsonServer
 
 by [Well-BoB](https://www.iconics.com)
 
-## **最新版本: v1 2020.02.02**
+## **最新版本: v1 2020.02.03**
 
 ## 文档地址
 
-- [项目文档](https://github.com/wangbinwww/Sequelize)
+- [项目文档](https://github.com/wangbinwww/zxkl_interface/tree/master/接口协议)
 
 ## 初始化项目
 
