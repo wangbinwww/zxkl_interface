@@ -4,7 +4,9 @@
   "description": "参考原文:\r **https://segmentfault.com/a/1190000019760817**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:app": "webpack --config build/webpack.app.config.js",
+    "dev:app": "webpack --config build/webpack.app.zip.config.js"
   },
   "author": "wangbin",
   "license": "ISC",
