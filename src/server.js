@@ -6,12 +6,11 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const path = require('path');
-const router = jsonServer.router(path.resolve(__dirname, './Assets/db.json'))
+const router = jsonServer.router(path.resolve(__dirname, '../src/Datas/db.json'))
 const middlewares = jsonServer.defaults()
 
-server.use(middlewares.concat);
+server.use(middlewares);
 server.use(router);
-
 
 //自定义用户校验
 /*
@@ -24,5 +23,5 @@ server.use((req, res, next) => {
 })
 */
 server.listen(3000, () => {
-    console.log('JSON Server is running.')
+    console.log('JSON Server is running at 3000.')
 })

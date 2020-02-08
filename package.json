@@ -1,12 +1,13 @@
 {
   "name": "zxkl_interface",
   "version": "1.0.0",
-  "description": "参考原文:\r **https://segmentfault.com/a/1190000019760817**",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:app": "webpack --config build/webpack.app.config.js",
-    "dev:app": "webpack --config build/webpack.app.zip.config.js"
+    "dev:app": "webpack --config build/webpack.app.zip.config.js",
+    "start": "node src/server.js"
   },
   "author": "wangbin",
   "license": "ISC",
