@@ -1,6 +1,12 @@
 .DS_Store
+**/*.log
 node_modules
-/dist
+dist
+.idea
+db.json
+tmp
+lib
+
 
 # local env files
 .env.local
