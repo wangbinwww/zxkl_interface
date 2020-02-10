@@ -171,6 +171,7 @@ axios(config).then(function (response) {
         console.log(response.data[0].Alarm);
         console.log(response.data[0].DataCollect);
         console.log(response.data[0]);
+        console.log(response.data);
         console.log(response);
         console.log(response.data.length);
         //console.log(JSON.stringify(response.data, null, ' '));

@@ -33,6 +33,7 @@ var config = {
     }
 }
 axios(config).then(function (response) {
+        console.log(response);
         console.log(response.data[0].Alarm.LastAlarmState);
         console.log(response.data[0].Alarm);
         console.log(response.data[0].DataCollect);
