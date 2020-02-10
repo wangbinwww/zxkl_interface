@@ -1,0 +1,113 @@
+[2020-02-09T16:15:20.061] [DEBUG] everything - 接收到数据:[object Object]
+[2020-02-09T21:39:43.679] [DEBUG] everything - [
+ {
+  "id": 1,
+  "DeviceUUID": "ICO3000900100889",
+  "DeviceName": "一楼卫生间生活用水",
+  "Type": "水表",
+  "State": "1",
+  "SpatialLocationCode": "普洛斯B1库A区",
+  "Alarm": {
+   "AlarmTitle": "无报警!",
+   "AlarmGroup": "A区水表",
+   "AlarmArea": "A区",
+   "AlarmLevel": "-1",
+   "Describe": "当前无报警!",
+   "LastAlarmState": {
+    "Type": "开关量报警",
+    "Level": "100",
+    "Message": "设备离线!",
+    "Time": "2020/02/07 8:20:59",
+    "RecoverTime": "2020/02/07 8:25:59",
+    "AckState": "1",
+    "AckTime": "2020/02/07 8:21:59"
+   }
+  },
+  "DataCollect": {
+   "CollectTime": "2020/02/08 12:30:59",
+   "Data": "32.8",
+   "Unit": "t"
+  }
+ }
+]
+[2020-02-09T21:41:14.344] [DEBUG] everything - [
+ {
+  "id": 1,
+  "DeviceUUID": "ICO3000900100889",
+  "DeviceName": "一楼卫生间生活用水",
+  "Type": "水表",
+  "State": "1",
+  "SpatialLocationCode": "普洛斯B1库A区",
+  "Alarm": {
+   "AlarmTitle": "无报警!",
+   "AlarmGroup": "A区水表",
+   "AlarmArea": "A区",
+   "AlarmLevel": "-1",
+   "Describe": "当前无报警!",
+   "LastAlarmState": {
+    "Type": "开关量报警",
+    "Level": "100",
+    "Message": "设备离线!",
+    "Time": "2020/02/07 8:20:59",
+    "RecoverTime": "2020/02/07 8:25:59",
+    "AckState": "1",
+    "AckTime": "2020/02/07 8:21:59"
+   }
+  },
+  "DataCollect": {
+   "CollectTime": "2020/02/08 12:30:59",
+   "Data": "32.8",
+   "Unit": "t"
+  }
+ }
+]
+[2020-02-09T21:47:10.650] [DEBUG] everything - [
+  {
+    id: 2,
+    DeviceUUID: 'ICO3000900100890',
+    DeviceName: '二楼卫生间生活用水',
+    Type: '水表',
+    State: '1',
+    SpatialLocationCode: '普洛斯B1库A区',
+    Alarm: {
+      AlarmTitle: '无报警!',
+      AlarmGroup: 'A区水表',
+      AlarmArea: 'A区',
+      AlarmLevel: '-1',
+      Describe: '当前无报警!',
+      LastAlarmState: [Object]
+    },
+    DataCollect: { CollectTime: '2020/02/08 12:30:59', Data: '32.8', Unit: 't' }
+  }
+]
+[2020-02-09T21:48:01.077] [DEBUG] everything - [
+ {
+  "id": 2,
+  "DeviceUUID": "ICO3000900100890",
+  "DeviceName": "二楼卫生间生活用水",
+  "Type": "水表",
+  "State": "1",
+  "SpatialLocationCode": "普洛斯B1库A区",
+  "Alarm": {
+   "AlarmTitle": "无报警!",
+   "AlarmGroup": "A区水表",
+   "AlarmArea": "A区",
+   "AlarmLevel": "-1",
+   "Describe": "当前无报警!",
+   "LastAlarmState": {
+    "Type": "开关量报警",
+    "Level": "100",
+    "Message": "设备离线!",
+    "Time": "2020/02/06 8:20:59",
+    "RecoverTime": "2020/02/06 8:25:59",
+    "AckState": "1",
+    "AckTime": "2020/02/06 8:21:59"
+   }
+  },
+  "DataCollect": {
+   "CollectTime": "2020/02/08 12:30:59",
+   "Data": "32.8",
+   "Unit": "t"
+  }
+ }
+]

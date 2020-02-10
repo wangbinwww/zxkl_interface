@@ -6,13 +6,16 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const path = require('path');
-const router = jsonServer.router(path.resolve(__dirname, '../src/Datas/db.json'))
+const router = jsonServer.router(path.resolve(__dirname, '../src/Datas/dbv1.json'))
 const middlewares = jsonServer.defaults()
-
 server.use(middlewares);
+// server.use(jsonServer.rewriter({
+//     "/api/*": "/$1",
+//     "/:resource/:id/show": "/:resource/:id",
+//     "/posts/:category": "/posts?category=:category",
+//     "/articles\\?id=:id": "/posts/:id"
+// }));
 server.use(router);
-
-
 //自定义用户校验
 /*
 server.use((req, res, next) => {
