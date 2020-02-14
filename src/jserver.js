@@ -9,12 +9,7 @@ const path = require('path');
 const router = jsonServer.router(path.resolve(__dirname, '../src/Datas/dbv1.json'))
 const middlewares = jsonServer.defaults()
 server.use(middlewares);
-// server.use(jsonServer.rewriter({
-//     "/api/*": "/$1",
-//     "/:resource/:id/show": "/:resource/:id",
-//     "/posts/:category": "/posts?category=:category",
-//     "/articles\\?id=:id": "/posts/:id"
-// }));
+
 server.use(router);
 //自定义用户校验
 /*
@@ -26,6 +21,6 @@ server.use((req, res, next) => {
     }
 })
 */
-server.listen(3000, () => {
-    console.log('JSON Server is running at 3000.')
+server.listen(13000, () => {
+    console.log('JSON Server is running at http://127.0.0.1:13000')
 })

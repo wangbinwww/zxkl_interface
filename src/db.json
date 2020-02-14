@@ -1,0 +1,106 @@
+{
+  "token": [
+    {
+      "id": 1,
+      "result": 0,
+      "remark": "登陆成功！",
+      "data": {
+        "token": "69FE3004952BD43769826CC79F2683F4DFE5B3811295A898093E607F8A2D0FC98D0908B55C9A6D30F6EC68D1AD3C3C5E004767051F910447311DF30F45671D12EF49372C58173AC0E48E2832921352D74B6F2D7B99D8C8031F0C87DA72EC6203"
+      }
+    },
+    {
+      "id": 2,
+      "result": 1,
+      "remark": "用户口令无效！",
+      "data": null
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "username": "admin",
+      "pswd": "Claa2017",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ],
+  "Deveuis": [
+    {
+      "id": 1,
+      "result": 0,
+      "remark": "a",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 235.9,
+            "current_a": 0.37,
+            "voltage_b": 235.3,
+            "voltage_c": 235,
+            "inactpower": 0.0162,
+            "actpower_energy": 34.98,
+            "inactpower_energy1": null,
+            "current_b": 0.35,
+            "deveui": "004a7704840001bf",
+            "inactpower_energy2": null,
+            "current_c": 0.327,
+            "CT": null,
+            "collecttime": "2020-01-10 10:25:07",
+            "powerfactor": 0.951,
+            "actpower": 0.1814,
+            "freezetime": null,
+            "devname": "B7库总表低压房P11",
+            "rptdt": "实时数据",
+            "metertemp": 33.1
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "result": 0,
+      "remark": "b",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 235.9,
+            "current_a": 0.38,
+            "voltage_b": 235.3,
+            "voltage_c": 235,
+            "inactpower": 0.0162,
+            "actpower_energy": 34.98,
+            "inactpower_energy1": null,
+            "current_b": 0.35,
+            "deveui": "004a7704840001bf",
+            "inactpower_energy2": null,
+            "current_c": 0.327,
+            "CT": null,
+            "collecttime": "2020-01-10 10:25:07",
+            "powerfactor": 0.951,
+            "actpower": 0.1814,
+            "freezetime": null,
+            "devname": "B7库总表低压房P11",
+            "rptdt": "实时数据",
+            "metertemp": 33.1
+          }
+        ]
+      }
+    }
+  ]
+}
