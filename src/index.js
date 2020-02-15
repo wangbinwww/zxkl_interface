@@ -20,22 +20,24 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger("everything");
+var tokenkey = '';
 
-GetToken()
-let RecvToken = '';
-console.log("tok=" + RecvToken)
+setInterval(function () { //定时器
 
-async function GetToken() {
+    GetToken();
+    GetData();
+}, 5000);
+
+
+
+//async function GetToken() {}
+
+function GetToken() {
 
     let config = {
         method: 'get',
-        url: 'http://127.0.0.1:3000/token/1',
         timeout: 5000,
-        //url: 'http://192.168.55.210:8093/openapi/v2/sm/login',
-        // params: {
-        //     "username": "admin",
-        //     "pswd": "Claa2017"
-        // },
+        url: 'http://127.0.0.1:3000/token/1',
         auth: {
             username: 'admin',
             password: 'Claa2017'
@@ -45,12 +47,16 @@ async function GetToken() {
             "Accept": "application/json"
         },
     }
-
     axios(config).then(function (response) {
-            // console.log("Post Token 数据返回:" + JSON.stringify(response.data, null, ' '));
-            // logger.debug("Post Token 数据返回:" + JSON.stringify(response.data, null, ' '));
-            RecvToken = JSON.stringify(response.data.data.token, null, ' ');
+            console.log("Post Token 数据返回:" + JSON.stringify(response.data, null, ' '));
+            logger.debug("Post Token 数据返回:" + JSON.stringify(response.data, null, ' '));
+            var RecvToken = JSON.stringify(response.data, null, ' ');
             console.log('Token=' + RecvToken);
+            axios.patch('http://127.0.0.1:3001/token/1',
+                response.data, {
+                    timeout: 5000,
+                })
+
         })
         .catch(function (error) {
             // console.log("Post Token错误:" + JSON.stringify(error, null, ' '));
@@ -59,4 +65,35 @@ async function GetToken() {
             console.log('error=' + RecvToken);
         });
 
+}
+
+
+
+function GetData() {
+
+    let config = {
+        method: 'get',
+        timeout: 5000,
+        url: 'http://localhost:3000/Deveuis/1',
+        headers: { //指定响应头
+            "Content-Type": "application/json;charset=utf-8",
+            "Accept": "application/json"
+        },
+    }
+
+    axios(config).then(function (response) {
+            var RecvToken = JSON.stringify(response.data, null, ' ');
+            console.log('Data = ' + RecvToken);
+            //更新数据
+            axios.patch('http://localhost:3001/Deveuis/1',
+                response.data, {
+                    timeout: 5000,
+                }
+            )
+        })
+        .catch(function (error) {
+            RecvToken = JSON.stringify(error, null, ' ');
+            console.log('Error=' + RecvToken);
+            console.log(error.response.status);
+        });
 }
