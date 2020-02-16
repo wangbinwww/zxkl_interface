@@ -13,7 +13,7 @@ log4js.configure({
             type: "dateFile",
             filename: path.resolve(__dirname, '../logs/log'),
             //pattern: 'yyyy-MM-dd hh-mm.log'
-            pattern: "yyyy-MM-dd.log"
+            pattern: "yyyy-MM-dd hh.log"
         }
     },
     categories: {
