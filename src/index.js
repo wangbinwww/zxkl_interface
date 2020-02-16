@@ -28,6 +28,11 @@ const logger = log4js.getLogger("everything");
 var TokenID = 1;
 var TokenValue = '';
 
+GetToken(TokenID);
+
+setInterval(function () { //定时器
+    GetToken(TokenID);
+}, 3600 * 1000);
 
 setInterval(function () { //定时器
     // 添加响应拦截器
@@ -55,11 +60,11 @@ setInterval(function () { //定时器
     //     // 对响应错误做点什么
     //     return Promise.reject(error);
     // });
-    GetToken(TokenID);
+
     for (let i = 1; i < DeveID.length; i++) {
-        //  GetData(i);
+        GetData(i);
     }
-    GetData(87)
+    //GetData(87)
     //console.log("当前 token:" + TokenValue)
 }, 5000);
 
@@ -69,32 +74,41 @@ function GetToken(p1) {
 
     let config = {
         method: 'get',
+        //method: 'post',
         timeout: 5000,
-        url: 'http://127.0.0.1:3000/token/' + p1,
-        // params: {
-        //     ID: 12345
-        // },
-        // auth: {
-        //     username: 'admin',
-        //     password: 'Claa2017'
-        // },
-        // data: {
-        //     username: 'admin',
-        //     password: 'Claa2017'
-        // },
+
+        url: 'http://127.0.0.1:3000/token/',
+        //url: 'http://192.168.55.210:8093/openapi/v2/sm/login',
+
         headers: { //指定响应头
             "Content-Type": "application/json;charset=utf-8",
             "Accept": "application/json"
         },
+
+        //get 方式释放params
+        params: {
+            id: p1
+        },
+
+        //post方式释放 data
+        // data: {
+        //     username: 'admin',
+        //     password: 'Claa2017'
+        // },
+
+
     }
 
     axiosGetToken(config).then(function (response) {
-            TokenValue = response.data.data.token;
+            TokenValue = response.data[0].data.token;
+            //TokenValue = response.data.data.token;
             logger.debug("Post GetToken 数据返回:" + JSON.stringify(response.data, null, ' '));
             let RecvToken = JSON.stringify(response.data, null, ' ');
             console.log('Post GetToken 数据返回:' + RecvToken);
-            axiosGetToken.patch('http://127.0.0.1:3001/token/1',
-                response.data, {
+            let url = 'http://127.0.0.1:3001/token/1';
+            //let url = 'http://192.168.55.210:8093/openapi/v2/sm/login';
+            axiosGetToken.patch(url,
+                response.data[0], {
                     timeout: 5000,
                 }).then(function (response) {
                 logger.debug("GetToken Patch数据存储成功:" + JSON.stringify(response.data, null, ' '));
@@ -116,7 +130,8 @@ function GetData(p1) {
     let config = {
         method: 'get',
         timeout: 5000,
-        url: 'http://localhost:3000/Deveuis/?deve=' + DeveID[p1].DevCode,
+        //url: 'http://localhost:3000/Deveuis/?DevCode=' + DeveID[p1].DevCode,
+        url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata?token=' + TokenValue + '&deveuis=' + DeveID[p1].DevCode,
         headers: { //指定响应头
             "Content-Type": "application/json;charset=utf-8",
             "Accept": "application/json"
