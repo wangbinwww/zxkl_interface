@@ -3557,3 +3557,567 @@
   ]
  }
 }
+[2020-02-16T10:17:40.001] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:17:40.009] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}
+[2020-02-16T10:17:44.989] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:17:44.995] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}
+[2020-02-16T10:18:49.910] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:21:13.642] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:21:38.500] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:21:43.486] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:24:43.014] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:24:43.021] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}
+[2020-02-16T10:24:48.008] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:24:48.013] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}
+[2020-02-16T10:24:53.008] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:24:53.014] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}
+[2020-02-16T10:24:58.011] [DEBUG] everything - Get Data 数据返回:[
+ {
+  "id": 88,
+  "result": 0,
+  "deve": "004a7704840001bf",
+  "remark": "a",
+  "data": {
+   "devtype": "cangniao_meter",
+   "datarows": [
+    {
+     "qrymeterperiod": null,
+     "PT": null,
+     "voltage_a": 235.9,
+     "current_a": 8.37,
+     "voltage_b": 235.3,
+     "voltage_c": 235,
+     "inactpower": 0.0162,
+     "actpower_energy": 34.98,
+     "inactpower_energy1": null,
+     "current_b": 0.35,
+     "deveui": "004a7704840001bf",
+     "inactpower_energy2": null,
+     "current_c": 0.327,
+     "CT": null,
+     "collecttime": "2020-01-10 10:25:07",
+     "powerfactor": 0.951,
+     "actpower": 0.1814,
+     "freezetime": null,
+     "devname": "B7库总表低压房P11",
+     "rptdt": "实时数据",
+     "metertemp": 33.1
+    }
+   ]
+  }
+ }
+]
+[2020-02-16T10:24:58.016] [DEBUG] everything - 数据存储成功:{
+ "id": 88,
+ "deve": "004a7704840001bf",
+ "result": 0,
+ "remark": "a",
+ "data": {
+  "devtype": "cangniao_meter",
+  "datarows": [
+   {
+    "qrymeterperiod": null,
+    "PT": null,
+    "voltage_a": 235.9,
+    "current_a": 8.37,
+    "voltage_b": 235.3,
+    "voltage_c": 235,
+    "inactpower": 0.0162,
+    "actpower_energy": 34.98,
+    "inactpower_energy1": null,
+    "current_b": 0.35,
+    "deveui": "004a7704840001bf",
+    "inactpower_energy2": null,
+    "current_c": 0.327,
+    "CT": null,
+    "collecttime": "2020-01-10 10:25:07",
+    "powerfactor": 0.951,
+    "actpower": 0.1814,
+    "freezetime": null,
+    "devname": "B7库总表低压房P11",
+    "rptdt": "实时数据",
+    "metertemp": 33.1
+   }
+  ]
+ }
+}

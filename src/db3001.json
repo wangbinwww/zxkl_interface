@@ -28,7 +28,7 @@
             "qrymeterperiod": null,
             "PT": null,
             "voltage_a": 235.9,
-            "current_a": 6.37,
+            "current_a": 8.37,
             "voltage_b": 235.3,
             "voltage_c": 235,
             "inactpower": 0.0162,
