@@ -1,7 +1,7 @@
 const path = require('path');
 const log4js = require("log4js");
-const axios = require("axios");
-
+const axiosGetToken = require("axios");
+const axiosGetData = require("axios");
 log4js.configure({
     appenders: {
         everything: {
@@ -20,14 +20,30 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger("everything");
-var tokenkey = [];
-var TokenID = '1';
-
+var TokenID = 1;
+var TokenValue = axiosGetToken.response;
 
 
 setInterval(function () { //定时器
-    //GetToken(TokenID);
-    for (let i = 0; i < DeveID.length; i++) {
+    // 添加响应拦截器
+    // axiosGetToken.interceptors.response.use(function (response) {
+    //     // 对响应数据做点什么
+    //     return response;
+    // }, function (error) {
+    //     // 对响应错误做点什么
+    //     //return Promise.reject(error);
+    //     return error
+    // });
+    // 添加响应拦截器
+    // axios.interceptors.response.use(function (response) {
+    //     // 对响应数据做点什么
+    //     return response.data;
+    // }, function (error) {
+    //     // 对响应错误做点什么
+    //     return Promise.reject(error);
+    // });
+    GetToken(TokenID);
+    for (let i = 1; i < DeveID.length; i++) {
         //  GetData(i);
     }
     GetData(87)
@@ -57,42 +73,25 @@ function GetToken(p1) {
             "Accept": "application/json"
         },
     }
-    // 添加请求拦截器
-    // axios.interceptors.request.use(function (config) {
-    //     config.withCredentials = true
-    //     config.headers = {
-    //         "TOKEN": "************"
-    //     }
-    //     return config;
-    // }, function (error) {
-    //     return Promise.reject(error);
-    // })
-    // 添加响应拦截器
-    // axios.interceptors.response.use(function (response) {
-    //     // 对响应数据做点什么
-    //     return response.data;
-    // }, function (error) {
-    //     // 对响应错误做点什么
-    //     return Promise.reject(error);
-    // });
-    axios(config).then(function (response) {
-            logger.debug("Post Token 数据返回:" + JSON.stringify(response.data, null, ' '));
+
+    axiosGetToken(config).then(function (response) {
+            logger.debug("Post GetToken 数据返回:" + JSON.stringify(response.data, null, ' '));
             let RecvToken = JSON.stringify(response.data, null, ' ');
-            console.log('Post Token 数据返回:' + RecvToken);
-            axios.patch('http://127.0.0.1:3001/token/1',
+            console.log('Post GetToken 数据返回:' + RecvToken);
+            axiosGetToken.patch('http://127.0.0.1:3001/token/1',
                 response.data, {
                     timeout: 5000,
                 }).then(function (response) {
-                logger.debug("数据存储成功:" + JSON.stringify(response.data, null, ' '));
+                logger.debug("GetToken Patch数据存储成功:" + JSON.stringify(response.data, null, ' '));
                 let RecvTokenLog = JSON.stringify(response.data, null, ' ');
-                console.log('数据存储成功:=' + RecvTokenLog);
+                console.log('GetToken Patch数据存储成功:' + RecvTokenLog);
             })
         })
         .catch(function (error) {
             // console.log("Post Token错误:" + JSON.stringify(error, null, ' '));
-            // logger.debug(JSON.stringify("Post Token错误:" + error, null, ' '));
+            logger.debug(JSON.stringify("Post GetToken 错误 Error:" + error, null, ' '));
             RecvToken = JSON.stringify(error, null, ' ')
-            console.log('Post Token错误 Error=' + RecvToken);
+            console.log('Post GetToken 错误 Error:' + RecvToken);
         });
 
 }
@@ -110,28 +109,31 @@ function GetData(p1) {
             "Accept": "application/json"
         },
     }
-    axios(config).then(function (response) {
+
+    axiosGetData(config).then(function (response) {
             logger.debug("Get Data 数据返回:" + JSON.stringify(response.data, null, ' '));
             let RecvToken = JSON.stringify(response.data, null, ' ');
             console.log('Get Data  数据返回:' + RecvToken);
             var DevId = DeveID[p1].ID
             let Devurl = 'http://localhost:3001/Deveuis/' + DevId
-            axios.patch(Devurl,
+            axiosGetData.patch(Devurl,
                 response.data[0], {
                     timeout: 5000,
                 }).then(function (response) {
-                logger.debug("数据存储成功:" + JSON.stringify(response.data, null, ' '));
+                logger.debug("GetData Patch数据存储成功:" + JSON.stringify(response.data, null, ' '));
                 let RecvTokenLog = JSON.stringify(response.data, null, ' ');
-                console.log('数据存储成功:=' + RecvTokenLog);
+                console.log('GetData Patch数据存储成功:=' + RecvTokenLog);
             })
         })
         .catch(function (error) {
             // console.log("Post Token错误:" + JSON.stringify(error, null, ' '));
-            // logger.debug(JSON.stringify("Post Token错误:" + error, null, ' '));
+            logger.debug(JSON.stringify("GetData错误 Error:" + error, null, ' '));
             RecvToken = JSON.stringify(error, null, ' ')
-            console.log('Post Token错误 Error=' + RecvToken);
+            console.log('GetData错误 Error' + RecvToken);
         });
 }
+
+
 
 var DeveID = [{
         "ID": "1",
