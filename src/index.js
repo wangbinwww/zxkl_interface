@@ -25,8 +25,30 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger("everything");
+//0自测,1 部署
+var TestCode = 0;
 var TokenID = 1;
 var TokenValue = '';
+
+if (TestCode == 0) {
+    var configMethod = 'get'
+    var configUrl = 'http://127.0.0.1:3000/token/'
+    var configParams = {
+        id: 1
+    }
+    var configData = {}
+    var url = 'http://127.0.0.1:3001/token/1';
+
+} else {
+    var configMethod = 'post'
+    var configUrl = 'http://192.168.55.210:8093/openapi/v2/sm/login'
+    var configParams = {}
+    var configData = {
+        username: 'admin',
+        password: 'Claa2017'
+    }
+    var url = 'http://192.168.55.210:8093/openapi/v2/sm/login';
+}
 
 GetToken(TokenID);
 
@@ -70,33 +92,20 @@ setInterval(function () { //定时器
 
 //async function GetToken() {}
 
-function GetToken(p1) {
+function GetToken() {
 
     let config = {
-        method: 'get',
-        //method: 'post',
+        method: configMethod,
         timeout: 5000,
-
-        url: 'http://127.0.0.1:3000/token/',
-        //url: 'http://192.168.55.210:8093/openapi/v2/sm/login',
-
+        url: configUrl,
         headers: { //指定响应头
             "Content-Type": "application/json;charset=utf-8",
             "Accept": "application/json"
         },
-
         //get 方式释放params
-        params: {
-            id: p1
-        },
-
+        params: configParams,
         //post方式释放 data
-        // data: {
-        //     username: 'admin',
-        //     password: 'Claa2017'
-        // },
-
-
+        data: configData,
     }
 
     axiosGetToken(config).then(function (response) {
@@ -105,8 +114,6 @@ function GetToken(p1) {
             logger.debug("Post GetToken 数据返回:" + JSON.stringify(response.data, null, ' '));
             let RecvToken = JSON.stringify(response.data, null, ' ');
             console.log('Post GetToken 数据返回:' + RecvToken);
-            let url = 'http://127.0.0.1:3001/token/1';
-            //let url = 'http://192.168.55.210:8093/openapi/v2/sm/login';
             axiosGetToken.patch(url,
                 response.data[0], {
                     timeout: 5000,
@@ -117,12 +124,11 @@ function GetToken(p1) {
             })
         })
         .catch(function (error) {
-            // console.log("Post Token错误:" + JSON.stringify(error, null, ' '));
+
             logger.debug(JSON.stringify("Post GetToken 错误 Error:" + error, null, ' '));
             RecvToken = JSON.stringify(error, null, ' ')
             console.log('Post GetToken 错误 Error:' + RecvToken);
         });
-
 }
 
 function GetData(p1) {
@@ -131,10 +137,16 @@ function GetData(p1) {
         method: 'get',
         timeout: 5000,
         //url: 'http://localhost:3000/Deveuis/?DevCode=' + DeveID[p1].DevCode,
-        url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata?token=' + TokenValue + '&deveuis=' + DeveID[p1].DevCode,
+        //url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata?token=' + TokenValue + '&deveuis=' + DeveID[p1].DevCode,
+        url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata',
         headers: { //指定响应头
             "Content-Type": "application/json;charset=utf-8",
             "Accept": "application/json"
+        },
+        //get 方式释放params
+        params: {
+            deveuis: DeveID[p1].DevCode,
+            token: TokenValue,
         },
     }
 
@@ -143,7 +155,9 @@ function GetData(p1) {
             let RecvToken = JSON.stringify(response.data, null, ' ');
             console.log('Get Data  数据返回:' + RecvToken);
             var DevID = DeveID[p1].id
+
             let Devurl = 'http://localhost:3001/Deveuis/' + DevID
+
             axiosGetData.patch(Devurl,
                 response.data[0], {
                     timeout: 5000,
