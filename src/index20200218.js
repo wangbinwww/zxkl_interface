@@ -1,7 +1,9 @@
+1
+//数据库
+//json-server --watch src/db3001.json --port 3001 --static ./src/static
 //必备组件
 //cnpm install express --save
 //cnpm install -g json-server http-server nodemon pkg typescript pm2  log4js axios
-
 // server.js
 const jsonServer = require('json-server')
 const server = jsonServer.create()
@@ -13,6 +15,7 @@ server.use(router);
 server.listen(3001, () => {
     console.log('JSON Server is running at http://127.0.0.1:3001')
 })
+
 
 //const path = require('path');
 const log4js = require("log4js");
@@ -68,12 +71,40 @@ setInterval(function () { //定时器
 }, 3600 * 1000);
 
 setInterval(function () { //定时器
+    // 添加响应拦截器
+    // axiosGetToken.interceptors.response.use(function (response) {
+    //     // 对响应数据做点什么
+    //     return response;
+    // }, function (error) {
+    //     // 对响应错误做点什么
+    //     //return Promise.reject(error);
+    //     return error
+    // });
+    // axiosGetData.interceptors.response.use(function (response) {
+    //     // 对响应数据做点什么
+    //     return response;
+    // }, function (error) {
+    //     // 对响应错误做点什么
+    //     //return Promise.reject(error);
+    //     return error
+    // });
+    // 添加响应拦截器
+    // axios.interceptors.response.use(function (response) {
+    //     // 对响应数据做点什么
+    //     return response.data;
+    // }, function (error) {
+    //     // 对响应错误做点什么
+    //     return Promise.reject(error);
+    // });
+
     for (let i = 0; i < DeveID.length; i++) {
         GetData(i);
     }
     //GetData(87)
     //console.log("当前 token:" + TokenValue)
 }, 60 * 1000);
+
+//async function GetToken() {}
 
 function GetToken() {
 
@@ -115,9 +146,12 @@ function GetToken() {
 }
 
 function GetData(p1) {
+
     let config = {
         method: 'get',
         timeout: 5000,
+        //url: 'http://localhost:3000/Deveuis/?DevCode=' + DeveID[p1].DevCode,
+        //url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata?token=' + TokenValue + '&deveuis=' + DeveID[p1].DevCode,
         url: 'http://192.168.55.210:8093/openapi/v2/data/latestdevdata',
         headers: { //指定响应头
             "Content-Type": "application/json;charset=utf-8",
@@ -146,6 +180,7 @@ function GetData(p1) {
             })
         })
         .catch(function (error) {
+            // console.log("Post Token错误:" + JSON.stringify(error, null, ' '));
             logger.debug(JSON.stringify("GetData错误 Error:" + error, null, ' '));
             RecvToken = JSON.stringify(error, null, ' ')
             console.log('GetData错误 Error' + RecvToken);
