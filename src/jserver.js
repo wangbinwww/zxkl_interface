@@ -1,6 +1,16 @@
 // json-server --watch --port 18080 ./src/assets/db.json
 // pm2 start server.js --name app
-// json-server --watch -c jserver.json db.json
+
+//常规启动
+// json-server --watch db.json --port 18080 
+
+//自定义路由引用
+// json-server db.json --routes routes.json
+
+// 静态资源引入
+// json-server db.json --static ./some-other-dir
+
+
 
 // server.js
 const jsonServer = require('json-server')
