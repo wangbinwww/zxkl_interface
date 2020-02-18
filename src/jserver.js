@@ -6,7 +6,7 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const path = require('path');
-const router = jsonServer.router(path.resolve(__dirname, '../src/Datas/dbv1.json'))
+const router = jsonServer.router(path.resolve(__dirname, '../src/db3001.json'))
 const middlewares = jsonServer.defaults()
 server.use(middlewares);
 
@@ -21,6 +21,6 @@ server.use((req, res, next) => {
     }
 })
 */
-server.listen(13000, () => {
-    console.log('JSON Server is running at http://127.0.0.1:13000')
+server.listen(3001, () => {
+    console.log('JSON Server is running at http://127.0.0.1:3001')
 })
