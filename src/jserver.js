@@ -14,6 +14,7 @@
 // json-server db.json --static ./some-other-dir
 
 // server.js
+
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const path = require('path');

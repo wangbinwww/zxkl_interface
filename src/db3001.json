@@ -3,9 +3,9 @@
     {
       "id": 1,
       "result": 0,
-      "remark": "登陆成功！!!!",
+      "remark": "登陆成功！",
       "data": {
-        "token": "69FE3004952BD43769826CC79F2683F4DFE5B3811295A898093E607F8A2D0FC98D0908B55C9A6D30F6EC68D1AD3C3C5E004767051F910447311DF30F45671D12EF49372C58173AC0E48E2832921352D74B6F2D7B99D8C8031F0C87DA72EC6203"
+        "token": "47527237358052C6799BF209FB86197985F585676C9F2429E716F225D99042292E04630AC45551CFDDB2231D7FF04016FEFB0D374A849D65BBD4A8857A8E00E840366DC810EECE717F94C5189645BCEB66DB04DC8413A3CE9728580D23827B21"
       }
     },
     {
@@ -24,717 +24,1182 @@
   "Deveuis": [
     {
       "id": "1",
-      "DevCode": "004a77006200031e",
-      "DevName": "变配所母排测温PT40",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001003",
-      "DevState": "开通"
+      "DevCode": "004a770073212bda",
+      "DevName": "B8三区库区DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:49",
+            "scale": 1.1,
+            "devname": "B8三区库区DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bda"
+          }
+        ]
+      },
+      "deveui": "004a770073212bda",
+      "state": 0
     },
     {
       "id": "2",
-      "DevCode": "004a77006200039b",
-      "DevName": "泵房水池液位",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001002",
-      "DevState": "开通"
+      "DevCode": "004a770073212bdc",
+      "DevName": "B5三分区库区DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 08:00:00",
+            "scale": 3.3,
+            "devname": "B5三分区库区DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bdc"
+          }
+        ]
+      },
+      "deveui": "004a770073212bdc",
+      "state": 0
     },
     {
       "id": "3",
-      "DevCode": "004a770062000415",
-      "DevName": "泵房转换开关",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001003",
-      "DevState": "开通"
+      "DevCode": "004a770073212bdd",
+      "DevName": "B8一区库区DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:59",
+            "scale": 1.4,
+            "devname": "B8一区库区DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bdd"
+          }
+        ]
+      },
+      "deveui": "004a770073212bdd",
+      "state": 0
     },
     {
       "id": "4",
-      "DevCode": "004a77006200042a",
-      "DevName": "泵房压力表",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001002",
-      "DevState": "开通"
+      "DevCode": "004a770073212bde",
+      "DevName": "B8二区库区DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:50",
+            "scale": 0.8,
+            "devname": "B8二区库区DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bde"
+          }
+        ]
+      },
+      "deveui": "004a770073212bde",
+      "state": 0
     },
     {
       "id": "5",
-      "DevCode": "004a77006200042b",
-      "DevName": "泵房压力表",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001002",
-      "DevState": "开通"
+      "DevCode": "004a770073212be0",
+      "DevName": "B7维修区水表DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:51",
+            "scale": 11.8,
+            "devname": "B7维修区水表DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212be0"
+          }
+        ]
+      },
+      "deveui": "004a770073212be0",
+      "state": 0
     },
     {
       "id": "6",
-      "DevCode": "004a77006200042e",
-      "DevName": "泵房压力表",
-      "DevType": "克拉GSP/SSP",
-      "DevApp": "2c26c50065001002",
-      "DevState": "开通"
+      "DevCode": "004a770073212be1",
+      "DevName": "B5一分区库区DN20",
+      "DevType": "智能水表.S.K.V2",
+      "DevApp": "2c26c50065001004",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:50",
+            "scale": 0.7,
+            "devname": "B5一分区库区DN20",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212be1"
+          }
+        ]
+      },
+      "deveui": "004a770073212be1",
+      "state": 0
     },
     {
       "id": "7",
-      "DevCode": "004a770073212bda",
-      "DevName": "DEV004a770073212bda",
+      "DevCode": "004a770073212bea",
+      "DevName": "B6四分区库区DN15",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-20 23:59:51",
+            "scale": 1.2,
+            "devname": "B6四分区库区DN15",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bea"
+          }
+        ]
+      },
+      "deveui": "004a770073212bea",
+      "state": 0
     },
     {
       "id": "8",
-      "DevCode": "004a770073212bdb",
-      "DevName": "DEV004a770073212bdb",
+      "DevCode": "004a770073212bf0",
+      "DevName": "A4库2F办公室水表二楼洗手盆下DN25",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 00:00:04",
+            "scale": 1.2,
+            "devname": "A4库2F办公室水表二楼洗手盆下DN25",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bf0"
+          }
+        ]
+      },
+      "deveui": "004a770073212bf0",
+      "state": 0
     },
     {
       "id": "9",
-      "DevCode": "004a770073212bdc",
-      "DevName": "DEV004a770073212bdc",
+      "DevCode": "004a770073212bf4",
+      "DevName": "A5库1F库内水表一层库内DN20",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 00:00:02",
+            "scale": 2.8,
+            "devname": "A5库1F库内水表一层库内DN20",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bf4"
+          }
+        ]
+      },
+      "deveui": "004a770073212bf4",
+      "state": 0
     },
     {
       "id": "10",
-      "DevCode": "004a770073212bdd",
-      "DevName": "DEV004a770073212bdd",
+      "DevCode": "004a770073212bf6",
+      "DevName": "A4库1F库内水表一层库内DN20",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 00:00:04",
+            "scale": 1.9,
+            "devname": "A4库1F库内水表一层库内DN20",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bf6"
+          }
+        ]
+      },
+      "deveui": "004a770073212bf6",
+      "state": 0
     },
     {
       "id": "11",
-      "DevCode": "004a770073212bde",
-      "DevName": "DEV004a770073212bde",
+      "DevCode": "004a770073212bf7",
+      "DevName": "A4库2F夹层水表洗手盆下DN20",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-20 23:59:55",
+            "scale": 1.1,
+            "devname": "A4库2F夹层水表洗手盆下DN20",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073212bf7"
+          }
+        ]
+      },
+      "deveui": "004a770073212bf7",
+      "state": 0
     },
     {
       "id": "12",
-      "DevCode": "004a770073212be0",
-      "DevName": "DEV004a770073212be0",
+      "DevCode": "004a770073227fb2",
+      "DevName": "A5库2F库内水表一层电梯旁DN20",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-20 23:59:52",
+            "scale": 3.7,
+            "devname": "A5库2F库内水表一层电梯旁DN20",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fb2"
+          }
+        ]
+      },
+      "deveui": "004a770073227fb2",
+      "state": 0
     },
     {
       "id": "13",
-      "DevCode": "004a770073212be1",
-      "DevName": "DEV004a770073212be1",
+      "DevCode": "004a770073227fb3",
+      "DevName": "A4库2F库内水表一层电梯旁DN20",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-20 23:59:52",
+            "scale": 2.5,
+            "devname": "A4库2F库内水表一层电梯旁DN20",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fb3"
+          }
+        ]
+      },
+      "deveui": "004a770073227fb3",
+      "state": 0
     },
     {
       "id": "14",
-      "DevCode": "004a770073212be2",
-      "DevName": "DEV004a770073212be2",
+      "DevCode": "004a770073227fb4",
+      "DevName": "小卖部DN15",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 00:00:08",
+            "scale": 1.8,
+            "devname": "小卖部DN15",
+            "readtime": "2020-02-21 00:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fb4"
+          }
+        ]
+      },
+      "deveui": "004a770073227fb4",
+      "state": 0
     },
     {
       "id": "15",
-      "DevCode": "004a770073212bea",
-      "DevName": "DEV004a770073212bea",
+      "DevCode": "004a770073227fcb",
+      "DevName": "B8二区办公区DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:44:58",
+            "scale": 18.3,
+            "devname": "B8二区办公区DN40",
+            "readtime": "2020-02-21 09:45:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fcb"
+          }
+        ]
+      },
+      "deveui": "004a770073227fcb",
+      "state": 0
     },
     {
       "id": "16",
-      "DevCode": "004a770073212bef",
-      "DevName": "DEV004a770073212bef",
+      "DevCode": "004a770073227fcc",
+      "DevName": "B5四分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:33",
+            "scale": 6.8,
+            "devname": "B5四分区办公室DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fcc"
+          }
+        ]
+      },
+      "deveui": "004a770073227fcc",
+      "state": 0
     },
     {
       "id": "17",
-      "DevCode": "004a770073212bf0",
-      "DevName": "DEV004a770073212bf0",
+      "DevCode": "004a770073227fcd",
+      "DevName": "A5库大水表(1F2F卫生间及夹层)一楼中梯DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 08:00:39",
+            "scale": 10.6,
+            "devname": "A5库大水表(1F2F卫生间及夹层)一楼中梯DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fcd"
+          }
+        ]
+      },
+      "deveui": "004a770073227fcd",
+      "state": 0
     },
     {
       "id": "18",
-      "DevCode": "004a770073212bf1",
-      "DevName": "DEV004a770073212bf1",
+      "DevCode": "004a770073227fcf",
+      "DevName": "B5三分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:30",
+            "scale": 23.5,
+            "devname": "B5三分区办公室DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fcf"
+          }
+        ]
+      },
+      "deveui": "004a770073227fcf",
+      "state": 0
     },
     {
       "id": "19",
-      "DevCode": "004a770073212bf2",
-      "DevName": "DEV004a770073212bf2",
+      "DevCode": "004a770073227fd1",
+      "DevName": "B6二分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:41:16",
+            "scale": 2,
+            "devname": "B6二分区办公室DN40",
+            "readtime": "2020-02-21 09:41:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd1"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd1",
+      "state": 0
     },
     {
       "id": "20",
-      "DevCode": "004a770073212bf3",
-      "DevName": "DEV004a770073212bf3",
+      "DevCode": "004a770073227fd2",
+      "DevName": "B5二分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:33",
+            "scale": 37.8,
+            "devname": "B5二分区办公室DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd2"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd2",
+      "state": 0
     },
     {
       "id": "21",
-      "DevCode": "004a770073212bf4",
-      "DevName": "DEV004a770073212bf4",
+      "DevCode": "004a770073227fd3",
+      "DevName": "B8一区办公区DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:33",
+            "scale": 16.2,
+            "devname": "B8一区办公区DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd3"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd3",
+      "state": 0
     },
     {
       "id": "22",
-      "DevCode": "004a770073212bf5",
-      "DevName": "DEV004a770073212bf5",
+      "DevCode": "004a770073227fd4",
+      "DevName": "B6三分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:42:40",
+            "scale": 227.2,
+            "devname": "B6三分区办公室DN40",
+            "readtime": "2020-02-21 09:43:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd4"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd4",
+      "state": 0
     },
     {
       "id": "23",
-      "DevCode": "004a770073212bf6",
-      "DevName": "DEV004a770073212bf6",
+      "DevCode": "004a770073227fd5",
+      "DevName": "A4库大水表(1F2F卫生间及夹层)一楼中梯DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:27",
+            "scale": 79.7,
+            "devname": "A4库大水表(1F2F卫生间及夹层)一楼中梯DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd5"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd5",
+      "state": 0
     },
     {
       "id": "24",
-      "DevCode": "004a770073212bf7",
-      "DevName": "DEV004a770073212bf7",
+      "DevCode": "004a770073227fd6",
+      "DevName": "B5一分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:42:39",
+            "scale": 16.1,
+            "devname": "B5一分区办公室DN40",
+            "readtime": "2020-02-21 09:43:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd6"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd6",
+      "state": 0
     },
     {
       "id": "25",
-      "DevCode": "004a770073227fb3",
-      "DevName": "DEV004a770073227fb3",
+      "DevCode": "004a770073227fd7",
+      "DevName": "B6四分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 07:59:28",
+            "scale": 41.8,
+            "devname": "B6四分区办公室DN40",
+            "readtime": "2020-02-21 08:00:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd7"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd7",
+      "state": 0
     },
     {
       "id": "26",
-      "DevCode": "004a770073227fb4",
-      "DevName": "DEV004a770073227fb4",
+      "DevCode": "004a770073227fd8",
+      "DevName": "B6一分区办公室DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:44:31",
+            "scale": 12.7,
+            "devname": "B6一分区办公室DN40",
+            "readtime": "2020-02-21 09:45:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd8"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd8",
+      "state": 0
     },
     {
       "id": "27",
-      "DevCode": "004a770073227fba",
-      "DevName": "DEV004a770073227fba",
+      "DevCode": "004a770073227fd9",
+      "DevName": "B8三区办公区DN40",
       "DevType": "智能水表.S.K.V2",
       "DevApp": "2c26c50065001004",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sikai_water_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 09:43:37",
+            "scale": 6.5,
+            "devname": "B8三区办公区DN40",
+            "readtime": "2020-02-21 09:44:00",
+            "battery": 3.6,
+            "deveui": "004a770073227fd9"
+          }
+        ]
+      },
+      "deveui": "004a770073227fd9",
+      "state": 0
     },
     {
       "id": "28",
-      "DevCode": "004a770073227fc8",
-      "DevName": "DEV004a770073227fc8",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "29",
-      "DevCode": "004a770073227fc9",
-      "DevName": "DEV004a770073227fc9",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "30",
-      "DevCode": "004a770073227fca",
-      "DevName": "DEV004a770073227fca",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "31",
-      "DevCode": "004a770073227fcb",
-      "DevName": "DEV004a770073227fcb",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "32",
-      "DevCode": "004a770073227fcc",
-      "DevName": "DEV004a770073227fcc",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "33",
-      "DevCode": "004a770073227fcd",
-      "DevName": "DEV004a770073227fcd",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "34",
-      "DevCode": "004a770073227fce",
-      "DevName": "DEV004a770073227fce",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "35",
-      "DevCode": "004a770073227fcf",
-      "DevName": "DEV004a770073227fcf",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "36",
-      "DevCode": "004a770073227fd0",
-      "DevName": "DEV004a770073227fd0",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "37",
-      "DevCode": "004a770073227fd1",
-      "DevName": "DEV004a770073227fd1",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "38",
-      "DevCode": "004a770073227fd2",
-      "DevName": "DEV004a770073227fd2",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "39",
-      "DevCode": "004a770073227fd3",
-      "DevName": "DEV004a770073227fd3",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "40",
-      "DevCode": "004a770073227fd4",
-      "DevName": "DEV004a770073227fd4",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "41",
-      "DevCode": "004a770073227fd5",
-      "DevName": "DEV004a770073227fd5",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "42",
-      "DevCode": "004a770073227fd6",
-      "DevName": "DEV004a770073227fd6",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "43",
-      "DevCode": "004a770073227fd7",
-      "DevName": "DEV004a770073227fd7",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "44",
-      "DevCode": "004a770073227fd8",
-      "DevName": "DEV004a770073227fd8",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "45",
-      "DevCode": "004a770073227fd9",
-      "DevName": "DEV004a770073227fd9",
-      "DevType": "智能水表.S.K.V2",
-      "DevApp": "2c26c50065001004",
-      "DevState": "开通"
-    },
-    {
-      "id": "46",
-      "DevCode": "004a770484000140",
-      "DevName": "DEV004a770484000140",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "47",
-      "DevCode": "004a770484000155",
-      "DevName": "DEV004a770484000155",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "48",
-      "DevCode": "004a770484000161",
-      "DevName": "DEV004a770484000161",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "49",
-      "DevCode": "004a770484000168",
-      "DevName": "DEV004a770484000168",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "50",
-      "DevCode": "004a77048400016d",
-      "DevName": "DEV004a77048400016d",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "51",
-      "DevCode": "004a770484000179",
-      "DevName": "DEV004a770484000179",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "52",
-      "DevCode": "004a77048400017a",
-      "DevName": "DEV004a77048400017a",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "53",
-      "DevCode": "004a77048400017b",
-      "DevName": "DEV004a77048400017b",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "54",
-      "DevCode": "004a77048400017c",
-      "DevName": "DEV004a77048400017c",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "55",
-      "DevCode": "004a77048400017d",
-      "DevName": "DEV004a77048400017d",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "56",
-      "DevCode": "004a77048400017e",
-      "DevName": "DEV004a77048400017e",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "57",
-      "DevCode": "004a77048400017f",
-      "DevName": "DEV004a77048400017f",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "58",
-      "DevCode": "004a770484000180",
-      "DevName": "DEV004a770484000180",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "59",
-      "DevCode": "004a770484000181",
-      "DevName": "DEV004a770484000181",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "60",
-      "DevCode": "004a770484000182",
-      "DevName": "DEV004a770484000182",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "61",
-      "DevCode": "004a770484000185",
-      "DevName": "DEV004a770484000185",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "62",
-      "DevCode": "004a770484000186",
-      "DevName": "DEV004a770484000186",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "63",
-      "DevCode": "004a770484000187",
-      "DevName": "DEV004a770484000187",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "64",
-      "DevCode": "004a770484000194",
-      "DevName": "DEV004a770484000194",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "65",
-      "DevCode": "004a770484000196",
-      "DevName": "DEV004a770484000196",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "66",
-      "DevCode": "004a77048400019b",
-      "DevName": "DEV004a77048400019b",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "67",
-      "DevCode": "004a77048400019c",
-      "DevName": "DEV004a77048400019c",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "68",
-      "DevCode": "004a77048400019d",
-      "DevName": "DEV004a77048400019d",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "69",
-      "DevCode": "004a77048400019e",
-      "DevName": "DEV004a77048400019e",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "70",
-      "DevCode": "004a77048400019f",
-      "DevName": "DEV004a77048400019f",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "71",
-      "DevCode": "004a7704840001a5",
-      "DevName": "DEV004a7704840001a5",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "72",
-      "DevCode": "004a7704840001a6",
-      "DevName": "DEV004a7704840001a6",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "73",
-      "DevCode": "004a7704840001a7",
-      "DevName": "DEV004a7704840001a7",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "74",
-      "DevCode": "004a7704840001a8",
-      "DevName": "DEV004a7704840001a8",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "75",
-      "DevCode": "004a7704840001a9",
-      "DevName": "DEV004a7704840001a9",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "76",
       "DevCode": "004a7704840001ad",
       "DevName": "B6二区风机B6库二分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6二区风机B6库二分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a7704840001ad",
+      "state": 3
     },
     {
-      "id": "77",
-      "DevCode": "004a7704840001b4",
-      "DevName": "DEV004a7704840001b4",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "78",
-      "DevCode": "004a7704840001b5",
-      "DevName": "DEV004a7704840001b5",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "79",
-      "DevCode": "004a7704840001b6",
-      "DevName": "DEV004a7704840001b6",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "80",
-      "DevCode": "004a7704840001b7",
-      "DevName": "DEV004a7704840001b7",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "81",
-      "DevCode": "004a7704840001b8",
-      "DevName": "DEV004a7704840001b8",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "82",
+      "id": "29",
       "DevCode": "004a7704840001b9",
       "DevName": "B7一分区万宁冷库B7库一分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7一分区万宁冷库B7库一分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 0,
+            "voltage_b": 237.7,
+            "voltage_c": 237.9,
+            "inactpower": 0,
+            "actpower_energy": 574.8,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001b9",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:51:00",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B7一分区万宁冷库B7库一分区",
+            "rptdt": "实时数据",
+            "metertemp": 26.6
+          }
+        ]
+      },
+      "deveui": "004a7704840001b9",
+      "state": 0
     },
     {
-      "id": "83",
+      "id": "30",
       "DevCode": "004a7704840001ba",
       "DevName": "B7一分区动力表B7库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7一分区动力表B7库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.8,
+            "current_a": 27.5,
+            "voltage_b": 238.2,
+            "voltage_c": 238.3,
+            "inactpower": 0.655,
+            "actpower_energy": 13228.5,
+            "inactpower_energy1": null,
+            "current_b": 18.25,
+            "deveui": "004a7704840001ba",
+            "inactpower_energy2": null,
+            "current_c": 22.2,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:14",
+            "powerfactor": 0.999,
+            "actpower": 14.73,
+            "freezetime": null,
+            "devname": "B7一分区动力表B7库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 28
+          }
+        ]
+      },
+      "deveui": "004a7704840001ba",
+      "state": 0
     },
     {
-      "id": "84",
+      "id": "31",
       "DevCode": "004a7704840001bb",
       "DevName": "B7二分区动力表B7库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7二分区动力表B7库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.9,
+            "current_a": 3.88,
+            "voltage_b": 238.2,
+            "voltage_c": 238.2,
+            "inactpower": 0.616,
+            "actpower_energy": 3881.6,
+            "inactpower_energy1": null,
+            "current_b": 0.4,
+            "deveui": "004a7704840001bb",
+            "inactpower_energy2": null,
+            "current_c": 1.52,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:29",
+            "powerfactor": 0.955,
+            "actpower": 1.26,
+            "freezetime": null,
+            "devname": "B7二分区动力表B7库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 28.6
+          }
+        ]
+      },
+      "deveui": "004a7704840001bb",
+      "state": 0
     },
     {
-      "id": "85",
+      "id": "32",
       "DevCode": "004a7704840001bc",
       "DevName": "B7一分区办公室B7库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7一分区办公室B7库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238,
+            "current_a": 0.92,
+            "voltage_b": 238.3,
+            "voltage_c": 238.2,
+            "inactpower": 0.136,
+            "actpower_energy": 2399.2,
+            "inactpower_energy1": null,
+            "current_b": 7.84,
+            "deveui": "004a7704840001bc",
+            "inactpower_energy2": null,
+            "current_c": 4.6,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:26",
+            "powerfactor": 1,
+            "actpower": 3.072,
+            "freezetime": null,
+            "devname": "B7一分区办公室B7库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 27.9
+          }
+        ]
+      },
+      "deveui": "004a7704840001bc",
+      "state": 0
     },
     {
-      "id": "86",
+      "id": "33",
       "DevCode": "004a7704840001bd",
       "DevName": "B7四分区动力表B7库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7四分区动力表B7库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.9,
+            "current_a": 0.28,
+            "voltage_b": 238.3,
+            "voltage_c": 238,
+            "inactpower": 0.088,
+            "actpower_energy": 1535.2,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001bd",
+            "inactpower_energy2": null,
+            "current_c": 6.88,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:22",
+            "powerfactor": 0.997,
+            "actpower": 1.396,
+            "freezetime": null,
+            "devname": "B7四分区动力表B7库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 28.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001bd",
+      "state": 0
     },
     {
-      "id": "87",
+      "id": "34",
       "DevCode": "004a7704840001be",
       "DevName": "B5库总表低压房P10",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5库总表低压房P10"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.1,
+            "current_a": 75.36,
+            "voltage_b": 237.8,
+            "voltage_c": 238.1,
+            "inactpower": 8.72,
+            "actpower_energy": 35435.2,
+            "inactpower_energy1": null,
+            "current_b": 90.4,
+            "deveui": "004a7704840001be",
+            "inactpower_energy2": null,
+            "current_c": 98.88,
+            "CT": null,
+            "collecttime": "2020-02-21 14:50:53",
+            "powerfactor": 0.989,
+            "actpower": 61.28,
+            "freezetime": null,
+            "devname": "B5库总表低压房P10",
+            "rptdt": "实时数据",
+            "metertemp": 30.5
+          }
+        ]
+      },
+      "deveui": "004a7704840001be",
+      "state": 0
     },
     {
-      "id": "88",
+      "id": "35",
       "DevCode": "004a7704840001bf",
       "DevName": "B7库总表低压房P11",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7库总表低压房P11",
       "result": 0,
-      "remark": "a",
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.2,
+            "current_a": 46.24,
+            "voltage_b": 237.9,
+            "voltage_c": 238.3,
+            "inactpower": 2.496,
+            "actpower_energy": 28312,
+            "inactpower_energy1": null,
+            "current_b": 38.4,
+            "deveui": "004a7704840001bf",
+            "inactpower_energy2": null,
+            "current_c": 48.32,
+            "CT": null,
+            "collecttime": "2020-02-21 14:54:12",
+            "powerfactor": 0.996,
+            "actpower": 28.72,
+            "freezetime": null,
+            "devname": "B7库总表低压房P11",
+            "rptdt": "实时数据",
+            "metertemp": 30.5
+          }
+        ]
+      },
+      "deveui": "004a7704840001bf",
+      "state": 0
+    },
+    {
+      "id": "36",
+      "DevCode": "004a7704840001c0",
+      "DevName": "B5库表B5库低压房2D",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.9,
+            "current_a": 71.85,
+            "voltage_b": 237.2,
+            "voltage_c": 236.6,
+            "inactpower": 9.015,
+            "actpower_energy": 35344.5,
+            "inactpower_energy1": null,
+            "current_b": 92.4,
+            "deveui": "004a7704840001c0",
+            "inactpower_energy2": null,
+            "current_c": 100.35,
+            "CT": null,
+            "collecttime": "2020-02-21 14:31:17",
+            "powerfactor": 0.99,
+            "actpower": 60.345,
+            "freezetime": null,
+            "devname": "B5库表B5库低压房2D",
+            "rptdt": "实时数据",
+            "metertemp": 29
+          }
+        ]
+      },
+      "deveui": "004a7704840001c0",
+      "state": 0
+    },
+    {
+      "id": "37",
+      "DevCode": "004a7704840001c1",
+      "DevName": "充电桩低压房P04",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.3,
+            "current_a": 0.3,
+            "voltage_b": 238.3,
+            "voltage_c": 238,
+            "inactpower": 0,
+            "actpower_energy": 1175,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001c1",
+            "inactpower_energy2": null,
+            "current_c": 0.3,
+            "CT": null,
+            "collecttime": "2020-02-21 14:52:11",
+            "powerfactor": 0.269,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "充电桩低压房P04",
+            "rptdt": "实时数据",
+            "metertemp": 30.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001c1",
+      "state": 0
+    },
+    {
+      "id": "38",
+      "DevCode": "004a7704840001c2",
+      "DevName": "物业管理用电低压房P12",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.1,
+            "current_a": 3.64,
+            "voltage_b": 237.9,
+            "voltage_c": 238.1,
+            "inactpower": 0.332,
+            "actpower_energy": 1443.6,
+            "inactpower_energy1": null,
+            "current_b": 2.38,
+            "deveui": "004a7704840001c2",
+            "inactpower_energy2": null,
+            "current_c": 0.72,
+            "CT": null,
+            "collecttime": "2020-02-21 14:57:10",
+            "powerfactor": 0.971,
+            "actpower": 1.354,
+            "freezetime": null,
+            "devname": "物业管理用电低压房P12",
+            "rptdt": "实时数据",
+            "metertemp": 30.4
+          }
+        ]
+      },
+      "deveui": "004a7704840001c2",
+      "state": 0
+    },
+    {
+      "id": "39",
+      "DevCode": "004a7704840001c8",
+      "DevName": "B5一区动力表B5库低压房3D",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.5,
+            "current_a": 10.28,
+            "voltage_b": 237.2,
+            "voltage_c": 236.6,
+            "inactpower": 0.904,
+            "actpower_energy": 4906.8,
+            "inactpower_energy1": null,
+            "current_b": 16.2,
+            "deveui": "004a7704840001c8",
+            "inactpower_energy2": null,
+            "current_c": 16.56,
+            "CT": null,
+            "collecttime": "2020-02-21 14:57:04",
+            "powerfactor": 0.996,
+            "actpower": 10.092,
+            "freezetime": null,
+            "devname": "B5一区动力表B5库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 30.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001c8",
+      "state": 0
+    },
+    {
+      "id": "40",
+      "DevCode": "004a7704840001c9",
+      "DevName": "B5二区动力表B5库低压房3D",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 13.96,
+            "voltage_b": 237.4,
+            "voltage_c": 237.1,
+            "inactpower": 2.032,
+            "actpower_energy": 6123.6,
+            "inactpower_energy1": null,
+            "current_b": 12.88,
+            "deveui": "004a7704840001c9",
+            "inactpower_energy2": null,
+            "current_c": 23.16,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:43",
+            "powerfactor": 0.983,
+            "actpower": 11.428,
+            "freezetime": null,
+            "devname": "B5二区动力表B5库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 29.9
+          }
+        ]
+      },
+      "deveui": "004a7704840001c9",
+      "state": 0
+    },
+    {
+      "id": "41",
+      "DevCode": "004a7704840001ca",
+      "DevName": "B5三区动力表B5库低压房3D",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 16.48,
+            "voltage_b": 237,
+            "voltage_c": 236.6,
+            "inactpower": 0.84,
+            "actpower_energy": 8175.2,
+            "inactpower_energy1": null,
+            "current_b": 30.16,
+            "deveui": "004a7704840001ca",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:31:10",
+            "powerfactor": 0.997,
+            "actpower": 10.896,
+            "freezetime": null,
+            "devname": "B5三区动力表B5库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 28
+          }
+        ]
+      },
+      "deveui": "004a7704840001ca",
+      "state": 0
+    },
+    {
+      "id": "42",
+      "DevCode": "004a7704840001cb",
+      "DevName": "B6四区动力表B6库低压房",
+      "DevType": "智能电表.C.N",
+      "DevApp": "2c26c50065001001",
+      "result": 0,
+      "remark": "",
       "data": {
         "devtype": "cangniao_meter",
         "datarows": [
@@ -742,584 +1207,1617 @@
             "qrymeterperiod": null,
             "PT": null,
             "voltage_a": 235.9,
-            "current_a": 9.37,
-            "voltage_b": 235.3,
-            "voltage_c": 235,
-            "inactpower": 0.0162,
-            "actpower_energy": 34.98,
+            "current_a": 113.88,
+            "voltage_b": 237.3,
+            "voltage_c": 236.8,
+            "inactpower": 47.74,
+            "actpower_energy": 27340,
             "inactpower_energy1": null,
-            "current_b": 0.35,
-            "deveui": "004a7704840001bf",
+            "current_b": 98,
+            "deveui": "004a7704840001cb",
             "inactpower_energy2": null,
-            "current_c": 0.327,
+            "current_c": 97.08,
             "CT": null,
-            "collecttime": "2020-01-10 10:25:07",
-            "powerfactor": 0.951,
-            "actpower": 0.1814,
+            "collecttime": "2020-02-21 14:46:17",
+            "powerfactor": 0.753,
+            "actpower": 54.468,
             "freezetime": null,
-            "devname": "B7库总表低压房P11",
+            "devname": "B6四区动力表B6库低压房",
             "rptdt": "实时数据",
-            "metertemp": 33.1
+            "metertemp": 28.2
           }
         ]
-      }
+      },
+      "deveui": "004a7704840001cb",
+      "state": 0
     },
     {
-      "id": "89",
-      "DevCode": "004a7704840001c0",
-      "DevName": "B5库表B5库低压房2D",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5库表B5库低压房2D"
-    },
-    {
-      "id": "90",
-      "DevCode": "004a7704840001c1",
-      "DevName": "充电桩低压房P04",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "充电桩低压房P04"
-    },
-    {
-      "id": "91",
-      "DevCode": "004a7704840001c2",
-      "DevName": "物业管理用电低压房P12",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "物业管理用电低压房P12"
-    },
-    {
-      "id": "92",
-      "DevCode": "004a7704840001c3",
-      "DevName": "DEV004a7704840001c3",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "93",
-      "DevCode": "004a7704840001c4",
-      "DevName": "DEV004a7704840001c4",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "94",
-      "DevCode": "004a7704840001c5",
-      "DevName": "DEV004a7704840001c5",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "95",
-      "DevCode": "004a7704840001c6",
-      "DevName": "DEV004a7704840001c6",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "96",
-      "DevCode": "004a7704840001c7",
-      "DevName": "DEV004a7704840001c7",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "97",
-      "DevCode": "004a7704840001c8",
-      "DevName": "B5一区动力表B5库低压房3D",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5一区动力表B5库低压房3D"
-    },
-    {
-      "id": "98",
-      "DevCode": "004a7704840001c9",
-      "DevName": "B5二区动力表B5库低压房3D",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5二区动力表B5库低压房3D"
-    },
-    {
-      "id": "99",
-      "DevCode": "004a7704840001ca",
-      "DevName": "B5三区动力表B5库低压房3D",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5三区动力表B5库低压房3D"
-    },
-    {
-      "id": "100",
-      "DevCode": "004a7704840001cb",
-      "DevName": "B6四区动力表B6库低压房",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6四区动力表B6库低压房"
-    },
-    {
-      "id": "101",
+      "id": "43",
       "DevCode": "004a7704840001cc",
       "DevName": "B7三分区动力表B7库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7三分区动力表B7库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.8,
+            "current_a": 18.4,
+            "voltage_b": 238.1,
+            "voltage_c": 237.8,
+            "inactpower": 2.096,
+            "actpower_energy": 5824.8,
+            "inactpower_energy1": null,
+            "current_b": 11.96,
+            "deveui": "004a7704840001cc",
+            "inactpower_energy2": null,
+            "current_c": 10.56,
+            "CT": null,
+            "collecttime": "2020-02-21 14:28:36",
+            "powerfactor": 0.969,
+            "actpower": 8.096,
+            "freezetime": null,
+            "devname": "B7三分区动力表B7库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 28.9
+          }
+        ]
+      },
+      "deveui": "004a7704840001cc",
+      "state": 0
     },
     {
-      "id": "102",
+      "id": "44",
       "DevCode": "004a7704840001cd",
       "DevName": "国药空调机房P04低压房P04",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "国药空调机房P04低压房P04"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 236.9,
+            "current_a": 301.92,
+            "voltage_b": 237.6,
+            "voltage_c": 237.7,
+            "inactpower": 154.288,
+            "actpower_energy": 75160,
+            "inactpower_energy1": null,
+            "current_b": 293.44,
+            "deveui": "004a7704840001cd",
+            "inactpower_energy2": null,
+            "current_c": 302.24,
+            "CT": null,
+            "collecttime": "2020-02-21 14:48:13",
+            "powerfactor": 0.691,
+            "actpower": 147.088,
+            "freezetime": null,
+            "devname": "国药空调机房P04低压房P04",
+            "rptdt": "实时数据",
+            "metertemp": 28.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001cd",
+      "state": 0
     },
     {
-      "id": "103",
+      "id": "45",
       "DevCode": "004a7704840001ce",
       "DevName": "B6库总表低压房P03",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6库总表低压房P03"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 236.8,
+            "current_a": 118.4,
+            "voltage_b": 237.9,
+            "voltage_c": 237.6,
+            "inactpower": 43.488,
+            "actpower_energy": 32140.8,
+            "inactpower_energy1": null,
+            "current_b": 103.68,
+            "deveui": "004a7704840001ce",
+            "inactpower_energy2": null,
+            "current_c": 103.84,
+            "CT": null,
+            "collecttime": "2020-02-21 14:34:19",
+            "powerfactor": 0.826,
+            "actpower": 63.248,
+            "freezetime": null,
+            "devname": "B6库总表低压房P03",
+            "rptdt": "实时数据",
+            "metertemp": 28.6
+          }
+        ]
+      },
+      "deveui": "004a7704840001ce",
+      "state": 0
     },
     {
-      "id": "104",
+      "id": "46",
       "DevCode": "004a7704840001cf",
       "DevName": "B6四区风机B6库四分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6四区风机B6库四分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 236,
+            "current_a": 0,
+            "voltage_b": 237.7,
+            "voltage_c": 237,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001cf",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:54:07",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B6四区风机B6库四分区",
+            "rptdt": "实时数据",
+            "metertemp": 27.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001cf",
+      "state": 0
     },
     {
-      "id": "105",
+      "id": "47",
       "DevCode": "004a7704840001d0",
       "DevName": "B5四区动力表B5库低压房3D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5四区动力表B5库低压房3D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.5,
+            "current_a": 23.4,
+            "voltage_b": 237.4,
+            "voltage_c": 236.7,
+            "inactpower": 7.444,
+            "actpower_energy": 9808,
+            "inactpower_energy1": null,
+            "current_b": 23.88,
+            "deveui": "004a7704840001d0",
+            "inactpower_energy2": null,
+            "current_c": 36.52,
+            "CT": null,
+            "collecttime": "2020-02-21 14:57:26",
+            "powerfactor": 0.916,
+            "actpower": 18.988,
+            "freezetime": null,
+            "devname": "B5四区动力表B5库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 29.3
+          }
+        ]
+      },
+      "deveui": "004a7704840001d0",
+      "state": 0
     },
     {
-      "id": "106",
+      "id": "48",
       "DevCode": "004a7704840001d1",
       "DevName": "A5库动力(1F.2F)A5库外围",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A5库动力(1F.2F)A5库外围"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.9,
+            "current_a": 1.04,
+            "voltage_b": 238.8,
+            "voltage_c": 239,
+            "inactpower": 0.628,
+            "actpower_energy": 1072.4,
+            "inactpower_energy1": null,
+            "current_b": 0.96,
+            "deveui": "004a7704840001d1",
+            "inactpower_energy2": null,
+            "current_c": 1.36,
+            "CT": null,
+            "collecttime": "2020-02-21 14:39:33",
+            "powerfactor": 0.627,
+            "actpower": 0.508,
+            "freezetime": null,
+            "devname": "A5库动力(1F.2F)A5库外围",
+            "rptdt": "实时数据",
+            "metertemp": 33.5
+          }
+        ]
+      },
+      "deveui": "004a7704840001d1",
+      "state": 0
     },
     {
-      "id": "107",
+      "id": "49",
       "DevCode": "004a7704840001d7",
       "DevName": "A4.A5路灯箱变房内4033",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4.A5路灯箱变房内4033"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": null,
+            "current_a": null,
+            "voltage_b": null,
+            "voltage_c": null,
+            "inactpower": null,
+            "actpower_energy": 473.7,
+            "inactpower_energy1": null,
+            "current_b": null,
+            "deveui": "004a7704840001d7",
+            "inactpower_energy2": null,
+            "current_c": null,
+            "CT": null,
+            "collecttime": "2020-02-21 01:05:00",
+            "powerfactor": null,
+            "actpower": 0.81,
+            "freezetime": "24点0分",
+            "devname": "A4.A5路灯箱变房内4033",
+            "rptdt": "日冻结数据",
+            "metertemp": null
+          }
+        ]
+      },
+      "deveui": "004a7704840001d7",
+      "state": 0
     },
     {
-      "id": "108",
+      "id": "50",
       "DevCode": "004a7704840001d8",
       "DevName": "A5库流水线总表(燕文)箱变房内",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A5库流水线总表(燕文)箱变房内"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239.1,
+            "current_a": 1.05,
+            "voltage_b": 239,
+            "voltage_c": 239.4,
+            "inactpower": 0.665,
+            "actpower_energy": 4025,
+            "inactpower_energy1": null,
+            "current_b": 1.75,
+            "deveui": "004a7704840001d8",
+            "inactpower_energy2": null,
+            "current_c": 2.45,
+            "CT": null,
+            "collecttime": "2020-02-21 14:42:02",
+            "powerfactor": 0.764,
+            "actpower": 0.795,
+            "freezetime": null,
+            "devname": "A5库流水线总表(燕文)箱变房内",
+            "rptdt": "实时数据",
+            "metertemp": 40.5
+          }
+        ]
+      },
+      "deveui": "004a7704840001d8",
+      "state": 0
     },
     {
-      "id": "109",
+      "id": "51",
       "DevCode": "004a7704840001d9",
       "DevName": "A4库动力总表A4库平台",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库动力总表A4库平台"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239.3,
+            "current_a": 0.6,
+            "voltage_b": 239.2,
+            "voltage_c": 239.4,
+            "inactpower": 0.19,
+            "actpower_energy": 1405,
+            "inactpower_energy1": null,
+            "current_b": 0.75,
+            "deveui": "004a7704840001d9",
+            "inactpower_energy2": null,
+            "current_c": 1.15,
+            "CT": null,
+            "collecttime": "2020-02-21 14:56:07",
+            "powerfactor": 0.932,
+            "actpower": 0.49,
+            "freezetime": null,
+            "devname": "A4库动力总表A4库平台",
+            "rptdt": "实时数据",
+            "metertemp": 34.3
+          }
+        ]
+      },
+      "deveui": "004a7704840001d9",
+      "state": 0
     },
     {
-      "id": "110",
+      "id": "52",
       "DevCode": "004a7704840001da",
       "DevName": "A4库2F消防风机备用A4库平台",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库2F消防风机备用A4库平台"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a7704840001da",
+      "state": 3
     },
     {
-      "id": "111",
+      "id": "53",
       "DevCode": "004a7704840001db",
       "DevName": "B5四区风机B5库低压房1D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5四区风机B5库低压房1D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 0,
+            "voltage_b": 237.2,
+            "voltage_c": 236.4,
+            "inactpower": 0,
+            "actpower_energy": 385.8,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001db",
+            "inactpower_energy2": null,
+            "current_c": 0.12,
+            "CT": null,
+            "collecttime": "2020-02-21 14:34:57",
+            "powerfactor": 0.838,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B5四区风机B5库低压房1D",
+            "rptdt": "实时数据",
+            "metertemp": 29.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001db",
+      "state": 0
     },
     {
-      "id": "112",
-      "DevCode": "004a7704840001dc",
-      "DevName": "DEV004a7704840001dc",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "113",
-      "DevCode": "004a7704840001dd",
-      "DevName": "DEV004a7704840001dd",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "114",
-      "DevCode": "004a7704840001de",
-      "DevName": "DEV004a7704840001de",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "115",
-      "DevCode": "004a7704840001df",
-      "DevName": "DEV004a7704840001df",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "116",
-      "DevCode": "004a7704840001e0",
-      "DevName": "DEV004a7704840001e0",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "117",
+      "id": "54",
       "DevCode": "004a7704840001e1",
       "DevName": "B8二区风机库区消防柜XF-2",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8二区风机库区消防柜XF-2"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.5,
+            "current_a": 0,
+            "voltage_b": 237.1,
+            "voltage_c": 237.2,
+            "inactpower": 0,
+            "actpower_energy": 449.2,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001e1",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:45:20",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B8二区风机库区消防柜XF-2",
+            "rptdt": "实时数据",
+            "metertemp": 29.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001e1",
+      "state": 0
     },
     {
-      "id": "118",
+      "id": "55",
       "DevCode": "004a7704840001e2",
       "DevName": "B8三区风机库区消防柜XF-3",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8三区风机库区消防柜XF-3"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.1,
+            "current_a": 0,
+            "voltage_b": 236.8,
+            "voltage_c": 237,
+            "inactpower": 0,
+            "actpower_energy": 132,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001e2",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:43:17",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B8三区风机库区消防柜XF-3",
+            "rptdt": "实时数据",
+            "metertemp": 29.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001e2",
+      "state": 0
     },
     {
-      "id": "119",
+      "id": "56",
       "DevCode": "004a7704840001e3",
       "DevName": "B7二分区风机B7库二分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7二分区风机B7库二分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.8,
+            "current_a": 0,
+            "voltage_b": 238.1,
+            "voltage_c": 238,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001e3",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:27:59",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B7二分区风机B7库二分区",
+            "rptdt": "实时数据",
+            "metertemp": 28.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001e3",
+      "state": 0
     },
     {
-      "id": "120",
+      "id": "57",
       "DevCode": "004a7704840001e4",
       "DevName": "B7一分区风机B7库一分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7一分区风机B7库一分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.6,
+            "current_a": 0,
+            "voltage_b": 237.9,
+            "voltage_c": 237.9,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001e4",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:55:53",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B7一分区风机B7库一分区",
+            "rptdt": "实时数据",
+            "metertemp": 29.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001e4",
+      "state": 0
     },
     {
-      "id": "121",
+      "id": "58",
       "DevCode": "004a7704840001e5",
       "DevName": "B8一区风机库区消防柜XF-1",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8一区风机库区消防柜XF-1"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.4,
+            "current_a": 0,
+            "voltage_b": 237.1,
+            "voltage_c": 237,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a7704840001e5",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:44:00",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B8一区风机库区消防柜XF-1",
+            "rptdt": "实时数据",
+            "metertemp": 29.5
+          }
+        ]
+      },
+      "deveui": "004a7704840001e5",
+      "state": 0
     },
     {
-      "id": "122",
+      "id": "59",
       "DevCode": "004a7704840001eb",
       "DevName": "B8一区动力表B8库低压房3D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8一区动力表B8库低压房3D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.3,
+            "current_a": 16.75,
+            "voltage_b": 236.6,
+            "voltage_c": 237.3,
+            "inactpower": 0,
+            "actpower_energy": 4625.5,
+            "inactpower_energy1": null,
+            "current_b": 24.05,
+            "deveui": "004a7704840001eb",
+            "inactpower_energy2": null,
+            "current_c": 25.85,
+            "CT": null,
+            "collecttime": "2020-02-21 14:35:41",
+            "powerfactor": 1,
+            "actpower": 15.31,
+            "freezetime": null,
+            "devname": "B8一区动力表B8库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 26.4
+          }
+        ]
+      },
+      "deveui": "004a7704840001eb",
+      "state": 0
     },
     {
-      "id": "123",
+      "id": "60",
       "DevCode": "004a7704840001ec",
       "DevName": "B8二区动力表B8库低压房3D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8二区动力表B8库低压房3D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.8,
+            "current_a": 19,
+            "voltage_b": 237.2,
+            "voltage_c": 236.9,
+            "inactpower": 3.77,
+            "actpower_energy": 5337,
+            "inactpower_energy1": null,
+            "current_b": 16.3,
+            "deveui": "004a7704840001ec",
+            "inactpower_energy2": null,
+            "current_c": 16.2,
+            "CT": null,
+            "collecttime": "2020-02-21 14:11:05",
+            "powerfactor": 0.931,
+            "actpower": 9.62,
+            "freezetime": null,
+            "devname": "B8二区动力表B8库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 27.9
+          }
+        ]
+      },
+      "deveui": "004a7704840001ec",
+      "state": 0
     },
     {
-      "id": "124",
+      "id": "61",
       "DevCode": "004a7704840001ed",
       "DevName": "B8三区动力表B8库低压房3D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8三区动力表B8库低压房3D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.2,
+            "current_a": 17.65,
+            "voltage_b": 236.7,
+            "voltage_c": 237.2,
+            "inactpower": 4.495,
+            "actpower_energy": 4078.5,
+            "inactpower_energy1": null,
+            "current_b": 7.95,
+            "deveui": "004a7704840001ed",
+            "inactpower_energy2": null,
+            "current_c": 15,
+            "CT": null,
+            "collecttime": "2020-02-21 14:38:56",
+            "powerfactor": 0.865,
+            "actpower": 7.79,
+            "freezetime": null,
+            "devname": "B8三区动力表B8库低压房3D",
+            "rptdt": "实时数据",
+            "metertemp": 26.6
+          }
+        ]
+      },
+      "deveui": "004a7704840001ed",
+      "state": 0
     },
     {
-      "id": "125",
+      "id": "62",
       "DevCode": "004a7704840001ee",
       "DevName": "A4库2F电梯电梯机房内",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库2F电梯电梯机房内"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.8,
+            "current_a": 0.64,
+            "voltage_b": 238.6,
+            "voltage_c": 239.1,
+            "inactpower": 0.17,
+            "actpower_energy": 305.4,
+            "inactpower_energy1": null,
+            "current_b": 1.36,
+            "deveui": "004a7704840001ee",
+            "inactpower_energy2": null,
+            "current_c": 5.34,
+            "CT": null,
+            "collecttime": "2020-02-21 14:40:30",
+            "powerfactor": 0.858,
+            "actpower": 0.602,
+            "freezetime": null,
+            "devname": "A4库2F电梯电梯机房内",
+            "rptdt": "实时数据",
+            "metertemp": 28.8
+          }
+        ]
+      },
+      "deveui": "004a7704840001ee",
+      "state": 0
     },
     {
-      "id": "126",
+      "id": "63",
       "DevCode": "004a7704840001ef",
       "DevName": "A5库2F电梯电梯机房内",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A5库2F电梯电梯机房内"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239,
+            "current_a": 0.5,
+            "voltage_b": 239,
+            "voltage_c": 239.1,
+            "inactpower": 0.16,
+            "actpower_energy": 275,
+            "inactpower_energy1": null,
+            "current_b": 0.46,
+            "deveui": "004a7704840001ef",
+            "inactpower_energy2": null,
+            "current_c": 0.28,
+            "CT": null,
+            "collecttime": "2020-02-21 14:02:28",
+            "powerfactor": 0.798,
+            "actpower": 0.216,
+            "freezetime": null,
+            "devname": "A5库2F电梯电梯机房内",
+            "rptdt": "实时数据",
+            "metertemp": 27.3
+          }
+        ]
+      },
+      "deveui": "004a7704840001ef",
+      "state": 0
     },
     {
-      "id": "127",
+      "id": "64",
       "DevCode": "004a7704840001ff",
       "DevName": "A4.A5总表箱变房内",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4.A5总表箱变房内"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239.2,
+            "current_a": 4.8,
+            "voltage_b": 238.9,
+            "voltage_c": 239.2,
+            "inactpower": 0,
+            "actpower_energy": 15523.5,
+            "inactpower_energy1": null,
+            "current_b": 14.55,
+            "deveui": "004a7704840001ff",
+            "inactpower_energy2": null,
+            "current_c": 11.85,
+            "CT": null,
+            "collecttime": "2020-02-21 14:48:19",
+            "powerfactor": 1,
+            "actpower": 7.425,
+            "freezetime": null,
+            "devname": "A4.A5总表箱变房内",
+            "rptdt": "实时数据",
+            "metertemp": 46.2
+          }
+        ]
+      },
+      "deveui": "004a7704840001ff",
+      "state": 0
     },
     {
-      "id": "128",
-      "DevCode": "004a770484000200",
-      "DevName": "B6库配电房B6配电房",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6库配电房B6配电房"
-    },
-    {
-      "id": "129",
+      "id": "65",
       "DevCode": "004a770484000201",
       "DevName": "B6二区动力表B6库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6二区动力表B6库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 236.2,
+            "current_a": 8.52,
+            "voltage_b": 237.4,
+            "voltage_c": 236.8,
+            "inactpower": 4,
+            "actpower_energy": 2568.8,
+            "inactpower_energy1": null,
+            "current_b": 11.08,
+            "deveui": "004a770484000201",
+            "inactpower_energy2": null,
+            "current_c": 11.68,
+            "CT": null,
+            "collecttime": "2020-02-21 14:46:09",
+            "powerfactor": 0.838,
+            "actpower": 6.144,
+            "freezetime": null,
+            "devname": "B6二区动力表B6库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 27.2
+          }
+        ]
+      },
+      "deveui": "004a770484000201",
+      "state": 0
     },
     {
-      "id": "130",
+      "id": "66",
       "DevCode": "004a770484000202",
       "DevName": "B6三区动力表B6库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6三区动力表B6库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 235.8,
+            "current_a": 0,
+            "voltage_b": 237.3,
+            "voltage_c": 236.5,
+            "inactpower": 0,
+            "actpower_energy": 25.2,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000202",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:41:04",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B6三区动力表B6库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 26.4
+          }
+        ]
+      },
+      "deveui": "004a770484000202",
+      "state": 0
     },
     {
-      "id": "131",
+      "id": "67",
       "DevCode": "004a770484000203",
       "DevName": "B6一区动力表B6库低压房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6一区动力表B6库低压房"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 235.9,
+            "current_a": 0,
+            "voltage_b": 237.4,
+            "voltage_c": 236.8,
+            "inactpower": 0,
+            "actpower_energy": 257.6,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000203",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:42:46",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B6一区动力表B6库低压房",
+            "rptdt": "实时数据",
+            "metertemp": 26.7
+          }
+        ]
+      },
+      "deveui": "004a770484000203",
+      "state": 0
     },
     {
-      "id": "132",
-      "DevCode": "004a77048400020a",
-      "DevName": "DEV004a77048400020a",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "133",
+      "id": "68",
       "DevCode": "004a77048400020e",
-      "DevName": "DEV004a77048400020e",
+      "DevName": "B6库配电房B6配电房",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 236.1,
+            "current_a": 2.16,
+            "voltage_b": 237.6,
+            "voltage_c": 236.7,
+            "inactpower": 0.572,
+            "actpower_energy": 2221.2,
+            "inactpower_energy1": null,
+            "current_b": 3.44,
+            "deveui": "004a77048400020e",
+            "inactpower_energy2": null,
+            "current_c": 4.04,
+            "CT": null,
+            "collecttime": "2020-02-21 14:52:19",
+            "powerfactor": 0.967,
+            "actpower": 2.18,
+            "freezetime": null,
+            "devname": "B6库配电房B6配电房",
+            "rptdt": "实时数据",
+            "metertemp": 27.3
+          }
+        ]
+      },
+      "deveui": "004a77048400020e",
+      "state": 0
     },
     {
-      "id": "134",
-      "DevCode": "004a77048400020f",
-      "DevName": "DEV004a77048400020f",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "135",
-      "DevCode": "004a770484000210",
-      "DevName": "DEV004a770484000210",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "136",
+      "id": "69",
       "DevCode": "004a770484000211",
       "DevName": "B8库总表低压房P11",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B8库总表低压房P11"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.2,
+            "current_a": 50.04,
+            "voltage_b": 238,
+            "voltage_c": 238.4,
+            "inactpower": 8.844,
+            "actpower_energy": 14824.8,
+            "inactpower_energy1": null,
+            "current_b": 47.52,
+            "deveui": "004a770484000211",
+            "inactpower_energy2": null,
+            "current_c": 51.48,
+            "CT": null,
+            "collecttime": "2020-02-21 14:54:20",
+            "powerfactor": 0.965,
+            "actpower": 32.544,
+            "freezetime": null,
+            "devname": "B8库总表低压房P11",
+            "rptdt": "实时数据",
+            "metertemp": 29.3
+          }
+        ]
+      },
+      "deveui": "004a770484000211",
+      "state": 0
     },
     {
-      "id": "137",
+      "id": "70",
       "DevCode": "004a770484000212",
       "DevName": "消防水泵房低压房P11",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "消防水泵房低压房P11"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 238.1,
+            "current_a": 0,
+            "voltage_b": 237.8,
+            "voltage_c": 238.2,
+            "inactpower": 0,
+            "actpower_energy": 193.2,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000212",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:51:39",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "消防水泵房低压房P11",
+            "rptdt": "实时数据",
+            "metertemp": 28.2
+          }
+        ]
+      },
+      "deveui": "004a770484000212",
+      "state": 0
     },
     {
-      "id": "138",
+      "id": "71",
       "DevCode": "004a770484000213",
       "DevName": "A4库1F消防风机备用A4库平台",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库1F消防风机备用A4库平台"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a770484000213",
+      "state": 3
     },
     {
-      "id": "139",
+      "id": "72",
       "DevCode": "004a770484000214",
       "DevName": "A4库2F消防风机A4库平台",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库2F消防风机A4库平台"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239.4,
+            "current_a": 0.09,
+            "voltage_b": 239,
+            "voltage_c": 239.2,
+            "inactpower": 0,
+            "actpower_energy": 31.8,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000214",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:48:39",
+            "powerfactor": 0.991,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "A4库2F消防风机A4库平台",
+            "rptdt": "实时数据",
+            "metertemp": 33.8
+          }
+        ]
+      },
+      "deveui": "004a770484000214",
+      "state": 0
     },
     {
-      "id": "140",
+      "id": "73",
       "DevCode": "004a770484000215",
       "DevName": "A4库1F消防风机A4库平台",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "A4库1F消防风机A4库平台"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 239.1,
+            "current_a": 0,
+            "voltage_b": 238.7,
+            "voltage_c": 239.3,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000215",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:47:48",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "A4库1F消防风机A4库平台",
+            "rptdt": "实时数据",
+            "metertemp": 32.7
+          }
+        ]
+      },
+      "deveui": "004a770484000215",
+      "state": 0
     },
     {
-      "id": "141",
+      "id": "74",
       "DevCode": "004a770484000216",
       "DevName": "B7三分区风机B7库三分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7三分区风机B7库三分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.5,
+            "current_a": 0,
+            "voltage_b": 237.8,
+            "voltage_c": 237.8,
+            "inactpower": 0,
+            "actpower_energy": 0,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000216",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:48:18",
+            "powerfactor": 1,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B7三分区风机B7库三分区",
+            "rptdt": "实时数据",
+            "metertemp": 28.6
+          }
+        ]
+      },
+      "deveui": "004a770484000216",
+      "state": 0
     },
     {
-      "id": "142",
+      "id": "75",
       "DevCode": "004a770484000217",
       "DevName": "B7四分区风机B7库四分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B7四分区风机B7库四分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a770484000217",
+      "state": 3
     },
     {
-      "id": "143",
-      "DevCode": "004a770484000218",
-      "DevName": "DEV004a770484000218",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "144",
-      "DevCode": "004a770484000219",
-      "DevName": "DEV004a770484000219",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "145",
-      "DevCode": "004a77048400021a",
-      "DevName": "DEV004a77048400021a",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "146",
-      "DevCode": "004a77048400021b",
-      "DevName": "DEV004a77048400021b",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "147",
-      "DevCode": "004a77048400021c",
-      "DevName": "DEV004a77048400021c",
-      "DevType": "智能电表.C.N",
-      "DevApp": "2c26c50065001001",
-      "DevState": "开通"
-    },
-    {
-      "id": "148",
+      "id": "76",
       "DevCode": "004a77048400021d",
       "DevName": "B6三区风机B6库三分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6三区风机B6库三分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a77048400021d",
+      "state": 3
     },
     {
-      "id": "149",
+      "id": "77",
       "DevCode": "004a77048400021e",
       "DevName": "B6一区风机B6库一分区",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B6一区风机B6库一分区"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": []
+      },
+      "deveui": "004a77048400021e",
+      "state": 3
     },
     {
-      "id": "150",
+      "id": "78",
       "DevCode": "004a77048400021f",
       "DevName": "B5二区风机B5库低压房1D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5二区风机B5库低压房1D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 0.09,
+            "voltage_b": 237.4,
+            "voltage_c": 236.7,
+            "inactpower": 0,
+            "actpower_energy": 35.4,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a77048400021f",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:01:40",
+            "powerfactor": 0.71,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B5二区风机B5库低压房1D",
+            "rptdt": "实时数据",
+            "metertemp": 28.2
+          }
+        ]
+      },
+      "deveui": "004a77048400021f",
+      "state": 0
     },
     {
-      "id": "151",
+      "id": "79",
       "DevCode": "004a770484000220",
       "DevName": "B5三区风机B5库低压房1D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5三区风机B5库低压房1D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.7,
+            "current_a": 0.12,
+            "voltage_b": 237.1,
+            "voltage_c": 236.6,
+            "inactpower": 0,
+            "actpower_energy": 33.9,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000220",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:31:10",
+            "powerfactor": 0.73,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B5三区风机B5库低压房1D",
+            "rptdt": "实时数据",
+            "metertemp": 28.8
+          }
+        ]
+      },
+      "deveui": "004a770484000220",
+      "state": 0
     },
     {
-      "id": "152",
+      "id": "80",
       "DevCode": "004a770484000221",
       "DevName": "B5一区风机B5库低压房1D",
       "DevType": "智能电表.C.N",
       "DevApp": "2c26c50065001001",
-      "DevState": "开通",
-      "Devlocation": "B5一区风机B5库低压房1D"
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "cangniao_meter",
+        "datarows": [
+          {
+            "qrymeterperiod": null,
+            "PT": null,
+            "voltage_a": 237.9,
+            "current_a": 0.09,
+            "voltage_b": 237.4,
+            "voltage_c": 236.8,
+            "inactpower": 0,
+            "actpower_energy": 44.1,
+            "inactpower_energy1": null,
+            "current_b": 0,
+            "deveui": "004a770484000221",
+            "inactpower_energy2": null,
+            "current_c": 0,
+            "CT": null,
+            "collecttime": "2020-02-21 14:33:06",
+            "powerfactor": 0.667,
+            "actpower": 0,
+            "freezetime": null,
+            "devname": "B5一区风机B5库低压房1D",
+            "rptdt": "实时数据",
+            "metertemp": 26.7
+          }
+        ]
+      },
+      "deveui": "004a770484000221",
+      "state": 0
+    },
+    {
+      "id": "81",
+      "DevCode": "0@004a77006200031e",
+      "DevName": "GSP小无线测温(PT40 无白名单)",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_swireless_tempmonitor_v2",
+        "datarows": []
+      },
+      "deveui": "0@004a77006200031e",
+      "state": 0
+    },
+    {
+      "id": "82",
+      "DevCode": "0@004a770062000415",
+      "DevName": "三山喷淋泵转换开关",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_raw_digitalcard",
+        "datarows": [
+          {
+            "in4_status": 0,
+            "in3_status": 0,
+            "deveui": "0@004a770062000415",
+            "out6_status": 0,
+            "collecttime": "2020-02-21 14:57:26",
+            "out5_status": 0,
+            "out2_status": 0,
+            "out3_status": 0,
+            "devname": "三山喷淋泵转换开关",
+            "in1_status": 1,
+            "in2_status": 0,
+            "out4_status": 0,
+            "out1_status": 0
+          }
+        ]
+      },
+      "deveui": "0@004a770062000415",
+      "state": 0
+    },
+    {
+      "id": "83",
+      "DevCode": "1@004a77006200024f",
+      "DevName": "GSP三相电流不平衡.H.A.H.D",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_hahd_3phase_current_paras",
+        "datarows": []
+      },
+      "deveui": "1@004a77006200024f",
+      "state": 0
+    },
+    {
+      "id": "84",
+      "DevCode": "1@004a77006200039b",
+      "DevName": "GSP液位监测传感器V2（PR10）",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001002",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_liquid_level_v2",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 14:46:51",
+            "liquidlevel": 5.248,
+            "devname": "GSP液位监测传感器V2（PR10）",
+            "deveui": "1@004a77006200039b"
+          }
+        ]
+      },
+      "deveui": "1@004a77006200039b",
+      "state": 0
+    },
+    {
+      "id": "85",
+      "DevCode": "1@004a770062000415",
+      "DevName": "三山消防栓转换开关",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_raw_digitalcard",
+        "datarows": [
+          {
+            "in4_status": 1,
+            "in3_status": 0,
+            "deveui": "1@004a770062000415",
+            "out6_status": 0,
+            "collecttime": "2020-02-21 14:57:29",
+            "out5_status": 0,
+            "out2_status": 0,
+            "out3_status": 0,
+            "devname": "三山消防栓转换开关",
+            "in1_status": 0,
+            "in2_status": 1,
+            "out4_status": 0,
+            "out1_status": 0
+          }
+        ]
+      },
+      "deveui": "1@004a770062000415",
+      "state": 0
+    },
+    {
+      "id": "86",
+      "DevCode": "1@004a77006200042a",
+      "DevName": "消火栓",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001002",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_lineconnpress_monitor",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 14:44:11",
+            "devname": "消火栓",
+            "press": 0.33,
+            "deveui": "1@004a77006200042a"
+          }
+        ]
+      },
+      "deveui": "1@004a77006200042a",
+      "state": 0
+    },
+    {
+      "id": "87",
+      "DevCode": "1@004a77006200042b",
+      "DevName": "喷淋",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001002",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_lineconnpress_monitor",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 14:44:51",
+            "devname": "喷淋",
+            "press": 0.13,
+            "deveui": "1@004a77006200042b"
+          }
+        ]
+      },
+      "deveui": "1@004a77006200042b",
+      "state": 0
+    },
+    {
+      "id": "88",
+      "DevCode": "1@004a77006200042e",
+      "DevName": "稳压泵",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001002",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_lineconnpress_monitor",
+        "datarows": [
+          {
+            "collecttime": "2020-02-21 14:44:10",
+            "devname": "稳压泵",
+            "press": 0.33,
+            "deveui": "1@004a77006200042e"
+          }
+        ]
+      },
+      "deveui": "1@004a77006200042e",
+      "state": 0
+    },
+    {
+      "id": "89",
+      "DevCode": "2@004a77006200024f",
+      "DevName": "GSP干式变压器温度控制仪（BWDK-S）",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_bwdks_drytran_tempctrl",
+        "datarows": []
+      },
+      "deveui": "2@004a77006200024f",
+      "state": 0
+    },
+    {
+      "id": "90",
+      "DevCode": "2@004a770062000415",
+      "DevName": "三山稳压泵转换开关",
+      "DevType": "克拉GSP/SSP",
+      "DevApp": "2c26c50065001003",
+      "result": 0,
+      "remark": "",
+      "data": {
+        "devtype": "sensor_raw_digitalcard",
+        "datarows": [
+          {
+            "in4_status": 0,
+            "in3_status": 1,
+            "deveui": "2@004a770062000415",
+            "out6_status": 0,
+            "collecttime": "2020-02-21 14:57:32",
+            "out5_status": 0,
+            "out2_status": 0,
+            "out3_status": 0,
+            "devname": "三山稳压泵转换开关",
+            "in1_status": 1,
+            "in2_status": 0,
+            "out4_status": 0,
+            "out1_status": 0
+          }
+        ]
+      },
+      "deveui": "2@004a770062000415",
+      "state": 0
     }
   ]
 }
