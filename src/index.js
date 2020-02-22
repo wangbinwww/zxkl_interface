@@ -686,7 +686,7 @@ log4js.configure({
 const logger = log4js.getLogger("everything");
 //0自测,1 部署
 var TestCode = 1;
-var TokenID = 1;
+
 var TokenValue = '';
 
 if (TestCode == 0) {
@@ -709,11 +709,11 @@ if (TestCode == 0) {
     var url3001 = 'http://127.0.0.1:3001/token/1';
 }
 
-GetToken(TokenID);
+GetToken();
 const GetTokentime = 6 * 3600 * 1000 //小时
-const GetDatatime = 10 * 60 * 1000//分钟
+const GetDatatime = 10 * 60 * 1000 //分钟
 setInterval(function () { //定时器
-    GetToken(TokenID);
+    GetToken();
 }, GetTokentime);
 
 
